@@ -1,0 +1,22 @@
+{
+    "build": {
+      "core": "arduino",
+      "cpu": "cortex-m33",
+      "f_cpu": "150000000L",
+      "mcu": "rp2350",
+      "variant": "rp2350",
+      "board": "pico2"
+    },
+    "frameworks": ["arduino"],
+    "name": "Raspberry Pi Pico 2 (RP2350)",
+    "upload": {
+      "maximum_ram_size": 524288,
+      "maximum_size": 2097152,
+      "native_usb": true,
+      "protocol": "picotool"
+    },
+    "url": "https://github.com/raspberrypi/pico-arduino",
+    "vendor": "Raspberry Pi",
+    "platform": "https://github.com/maxgerhardt/platform-raspberrypi.git"
+  }
+  
